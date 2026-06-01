@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Barber Prime | Agendamento</title>
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html">Barber Prime</a>
+
+        <nav class="barra" aria-label="Menu principal">
+            <ul>
+                <li><a href="index.html">In&iacute;cio</a></li>
+                <li><a href="agendamento.html">Agendamento</a></li>
+                <li><a href="cont.html">Contato</a></li>
+                <li><a href="cadrasto.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page-shell">
+        <section class="page-card agendamento-section">
+            <p class="eyebrow">Reserva</p>
+            <h1>Agende seu hor&aacute;rio</h1>
+            <p class="page-description">Escolha o melhor dia e hor&aacute;rio para cuidar do visual com tranquilidade.</p>
+
+            <form class="campo" id="formulario">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Nome">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" placeholder="Telefone">
+
+                <label for="data">Data</label>
+                <input type="date" id="data">
+
+                <label for="hora">Hor&aacute;rio</label>
+                <input type="time" id="hora">
+
+                <button type="submit">Agendar</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="https://dafjyrduposuwbkhglum.supabase.co/rest/v1/"></script>
+</body>
+
+</html>
